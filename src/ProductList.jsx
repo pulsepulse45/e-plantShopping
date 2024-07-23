@@ -253,7 +253,7 @@ function ProductList() {
     const handleHomeClick = (e) => {
         e.preventDefault();
 
-        setShowAboutUs(false); // Set showAboutUs to false when "Home" link is clicked
+        setShowAboutUs(true); // Set showAboutUs to false when "Home" link is clicked
         setShowCart(false); // Hide the cart when navigating back to Home
     };
 
